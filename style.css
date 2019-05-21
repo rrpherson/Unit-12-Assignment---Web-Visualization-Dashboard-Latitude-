@@ -5,7 +5,7 @@
 /* Body */
 body {
     background-image: url("http://girlondesktop.com/wp-content/uploads/2018/10/Weather-Desktop-Background.jpg");
-    height: 850px;
+    height: 1100px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -60,23 +60,24 @@ body {
     border-style: solid;
     
   }
-  .vizualization {
-    width:50% !important;
-    height:50% !important;
+  .visualization {
+    width:100% !important;
+    height:100% !important;
   }
   
   /* Title */
   .title {
     color: darkblue;
     font-family: Verdana, Arial, Helvetica, sans-serif;
-    font-weight: bolder;
+    font-weight: bold;
     padding-top: 10px;
+    text-align: center;
   }
   
   /* Paragraph */
   p {
   color: black;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
   font-size: 15px;
   }
   
@@ -102,8 +103,8 @@ body {
   border-top-width: 5px;
   border-top-color: darkred;
   color: white;
-  min-height: 60px;
-  font-family: Arial, Helvetica, sans-serif;
+  min-height: 50px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
   font-size: 12px;
   text-align: center;
   position: fixed;
@@ -116,7 +117,7 @@ body {
   /* Media Queries */
   @media(max-width: 992px) {
     .navbar-expand-lg {
-    background-color: black !important;
+    background-color: white !important;
     }
     .navbar {
       max-height: none;
