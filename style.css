@@ -34,11 +34,11 @@ body {
     color: black !important;
   }
   .dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover {
-    background-color: lightgray !important;
+    background-color: darkred !important;
   }
   
   .nav-link:hover {
-    background-color: white !important;
+    background-color: darkred !important;
    }
   
   .navbar-brand:hover {
